@@ -2,7 +2,7 @@ require('dotenv').config();
 const qs = require('querystring');
 const fetch = require('node-fetch');
 
-// Cargo de credenciales
+// Carga de credenciales
 const receiverId = process.env.KHIPU_RECEIVER_ID;
 const secret = process.env.KHIPU_SECRET;
 
@@ -14,7 +14,7 @@ if (!receiverId || !secret) {
 // Codificar la autenticación básica
 const credentials = Buffer.from(`${receiverId}:${secret}`).toString('base64');
 
-// Los parámetros del pago
+// Parámetros del pago
 const params = {
   subject: 'Pago demo desde Node.js',
   amount: 5000,
@@ -24,7 +24,7 @@ const params = {
   bank_id: 'DEMO',
   return_url: 'https://www.google.com',
   cancel_url: 'https://www.google.com',
-  notify_url: 'https://webhook.site/tu-url-aqui' // reemplazalo si querés usar un webhook real
+  notify_url: 'https://webhook.site/tu-url-aqui' 
 };
 
 async function crearCobro() {
