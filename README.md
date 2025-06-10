@@ -49,7 +49,7 @@ npm install
 
 2. Ejecutar el script:
 
-bash
+```bash
 node khipu-integration.js
 ```
 
@@ -75,7 +75,7 @@ Confirmar que la cuenta esté en modo desarrollador
 
 Contactar a soporte técnico de Khipu (El problema fue reportado a soporte técnico como parte de esta prueba)
 
-👤 Autor
+👤 Autora
 Yamila Hadad
 https://github.com/Yamilahadad
 
