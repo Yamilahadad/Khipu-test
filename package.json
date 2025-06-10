@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Tu Nombre",
+  "author": "Yamila Hadad",
   "license": "ISC",
   "description": "Integración de prueba con la API de pagos de Khipu en entorno de desarrollo.",
   "dependencies": {
