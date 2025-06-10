@@ -44,12 +44,12 @@ KHIPU_SECRET=***************
 
 1. Instalar las dependencias:
 
-```bash
+bash
 npm install
 
 2. Ejecutar el script:
 
-```bash
+bash
 node khipu-integration.js
 ```
 
